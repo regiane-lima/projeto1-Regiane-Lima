@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap');
+#fundo {
+    background-color: #0f12b3;
+    padding: 20px;
+}
+
+body {
+    background: linear-gradient(to right, #120061, rgb(0, 0, 0));
+    font-family: 'Playfair Display', serif;
+}
+
+#nav {
+    background-color: #742db6;
+    padding: 20px;
+    color: aliceblue;
+}
+
+.img {
+    float: left;
+}
+
+.p1 {
+    margin-top: 150px;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+button {
+    padding: 10px;
+    min-width: min-content;
+    height: 50px;
+    margin-left: 90px;
+}
+
+.bt1:hover {
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+.p2 {
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+.card1 {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgb(0, 217, 255) 0px 18px 36px -18px inset;
+    margin-right: 30px;
+    width: 300px;
+}
+
+.card2 {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgb(0, 217, 255) 0px 18px 36px -18px inset;
+    margin-top: 15px;
+}
+
+.player1 {
+    box-shadow: rgba(0, 132, 255, 0.74) 0px 8px 24px, rgba(0, 225, 255, 0.1) 0px 16px 56px, rgba(0, 0, 197, 0.1) 0px 24px 80px;
+}
+
+.imgFoto1 {
+    box-shadow: rgba(0, 132, 255, 0.74) 0px 8px 24px, rgba(0, 225, 255, 0.1) 0px 16px 56px, rgba(0, 0, 197, 0.1) 0px 24px 80px;
+}
+
+.imgFoto2 {
+    box-shadow: rgba(0, 132, 255, 0.74) 0px 8px 24px, rgba(0, 225, 255, 0.1) 0px 16px 56px, rgba(0, 0, 197, 0.1) 0px 24px 80px;
+}
+
+.card1:hover {
+    box-shadow: rgba(52, 225, 255, 0.56) 0px 22px 70px 4px;
+}
+
+.p3 {
+    text-align: center;
+    color: white;
+    margin-top: 60px;
+    font-family: 'Playfair Display', serif;
+}
+
+.card2:hover {
+    box-shadow: rgba(52, 225, 255, 0.356) 0px 22px 70px 4px;
+}
+
+.myButton {
+    box-shadow: rgba(4, 196, 255, 0.719) 0px 30px 60px -12px inset, rgba(8, 218, 255, 0.863) 0px 18px 36px -18px inset;
+    background: linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+    background-color: #33bdef;
+    border-radius: 6px;
+    border: 1px solid #057fd0;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px -1px 0px #5b6178;
+}
+
+.myButton:hover {
+    background: linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+    background-color: #019ad2;
+    box-shadow: rgba(27, 241, 248, 0.459) 0px 22px 70px 4px;
+    color: white;
+}
+
+.myButton:active {
+    top: 1px;
+}
+
+.audioCard {
+    margin-top: 1em
+}
+
+.imgCard {
+    border-radius: 20px;
+    margin-left: 12px;
+    margin-left: 0px;
+    box-sizing: border-box;
+}
+
+.h1f {
+    color: #f0f7fa;
+}
+
+#fundo {
+    background: linear-gradient(to right, #23079e, rgb(0, 0, 0));
+    font-family: 'Playfair Display', serif;
+}
+
+.caixa {
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+audio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgb(2, 226, 255) 0px 20px 30px -10px;
+    border-radius: 50px;
+}
+
+.img {
+    margin-top: 60px;
+}
+
+.tdcards {
+    font-family: 'Playfair Display', serif;
+}
+
+.rodape {
+    background-color: #019ad2;
+    padding: 100px;
+}
+
+@media (min-width: 900px) {
+    .tdcards {
+        display: flex;
+        padding: 0px;
+        margin-right: 40px;
+    }
+    .card1 {
+        margin-top: 15px;
+    }
+}
+
+.caixa {
+    padding: 30px;
+}
+
+.imgCard {
+    margin-left: 30px;
+}
+
+.player1 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to right, #160077, rgb(0, 0, 0));
+    color: #ddd;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+.descricao {
+    width: 300px;
+}
+
+h2 {
+    margin-bottom: 5px;
+    font-family: 'Playfair Display', serif;
+}
